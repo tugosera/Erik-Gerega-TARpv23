@@ -22,4 +22,5 @@ print("konfeti",konfeti)
 spizdil=int(input("skolko spizdit"))
 konfeti-=spizdil
 print("na stole teper",konfeti,"konfet")
+print()
 
