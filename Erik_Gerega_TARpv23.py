@@ -17,10 +17,19 @@
 #print("muutuja pikkus=" ,pikkus ,"tüüp on",type(pikkus))
 #3
 from random import *
-konfeti=randint(10,100)
-print("konfeti",konfeti)
-spizdil=int(input("skolko spizdit"))
-konfeti-=spizdil
-print("na stole teper",konfeti,"konfet")
-print()
+#konfeti=randint(10,100)
+#print("konfeti",konfeti)
+#ukral=int(input("skolko ukrast"))
+#konfeti-=ukral
+#print("na stole teper",konfeti,"konfet")
+#print()
+
+try:
+    aeg = float(input("mittu tundi kulus söiduks? ")) #aeg ei sa olla 0
+    teepikkus = float(input("mittu kilomeetri söitsid?"))
+    kiirus = teepikkus/aeg 
+    print("sinu kiirus oli " + str(kiirus) + " km/h")
+except:
+    print("viga bljat")
+
 
