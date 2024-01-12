@@ -51,12 +51,12 @@ from random import *
 #summa = a+b+c
 #print("perimitr treugolnika:", summa)
 
-#10
-P=randint(1,5)
-hind=12.90
-ind=1.1 #hind koos jätatega
-osa=round(hind/P,2)
-print("Iga sõber maksab: ", osa) 
+##10
+#P=randint(1,5)
+#hind=12.90
+#ind=1.1 #hind koos jätatega
+#osa=round(hind/P,2)
+#print("Iga sõber maksab: ", osa) 
 
 
 
