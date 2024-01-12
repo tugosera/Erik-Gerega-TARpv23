@@ -24,12 +24,39 @@ from random import *
 #print("na stole teper",konfeti,"konfet")
 #print()
 
-try:
-    aeg = float(input("mittu tundi kulus söiduks? ")) #aeg ei sa olla 0
-    teepikkus = float(input("mittu kilomeetri söitsid?"))
-    kiirus = teepikkus/aeg 
-    print("sinu kiirus oli " + str(kiirus) + " km/h")
-except:
-    print("viga bljat")
+#5
+#N = int(input("pervoe chislo"))
+#M = int(input("vtoroe chislo"))
+#summa = N*M
+#print("диагонали прямоугольного участка земли равен", summa)
+
+#6
+#try:
+#    aeg = float(input("mittu tundi kulus söiduks? ")) #aeg ei sa olla 0
+#    teepikkus = float(input("mittu kilomeetri söitsid?"))
+#    kiirus = teepikkus/aeg 
+#    print("sinu kiirus oli " + str(kiirus) + " km/h")
+#except:
+#    print("viga")
+
+#7
+#numbers = (1,2,3,4,5)
+#summa = sum(numbers)/len(numbers)
+#print(summa)
+
+#9
+#a = int(input("perenmennaja 1"))
+#b = int(input("perenmennaja 2"))
+#c = int(input("perenmennaja 3"))
+#summa = a+b+c
+#print("perimitr treugolnika:", summa)
+
+#10
+P=randint(1,5)
+hind=12.90
+ind=1.1 #hind koos jätatega
+osa=round(hind/P,2)
+print("Iga sõber maksab: ", osa) 
+
 
 
