@@ -42,17 +42,16 @@ if nimi.lower()=="juku":
     if age<0 or age>100:
         tulemus="viga"
     elif age<6:
-        tulemus="pilet tasuta"
+        tulemus="siis ma ostan pilet tasuta"
     elif 6<=age>14:
-        tulemus="laste pilet"
-    elif 14<=age>65:
-        tulemus="täispilet"
-    else:
-        tulemus="sooduspilet"
-
+        tulemus="siis ma ostan laste pilet"
+    elif 15<=age>65:
+        tulemus="siis ma ostan täispilet"
+    elif 66<=age>100:
+        tulemus="siis ma ostan sooduspilet"
+    print(tulemus)
 else:
     print("me ei lähe kinnos")
-
 
 
     
