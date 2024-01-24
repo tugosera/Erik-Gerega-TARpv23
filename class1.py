@@ -33,9 +33,9 @@
 
 #1
 
-#print("Mis on sinu nimi?")
-#nimi=input()
-#if nimi.lower()=="juku":
+# print("Mis on sinu nimi?")
+# nimi=input()
+# if nimi.lower()=="juku":
 #    print("me läheme kinnos")
 #    print("skolko let?")
 #    age=int(input())
@@ -55,7 +55,7 @@
 #        tulemus="siis ma ostan sooduspilet"
 
 #    print(tulemus)
-#else:
+# else:
 #    print("me ei lähe kinnos")
 
 #2
@@ -84,8 +84,55 @@
 #    d=S*q     
 #    print("zamena pola stoit", d)
 
-from datetime import *
-from random import *
+#4
+# from math import *
+
+# print("milline on alghind?")
+# a=int(input())
+# if a>700:
+#     a*0.30
+#     print("uus hind = ", a )
+# else:
+#     print("hind ei muuda, ja on ", a)
+
+#5
+
+# a=int(input("temperatuur praegu on "))
+# if a>17:
+#     print("Temperatuur on hea")
+# else:
+#     print("temperatuur on liiga väike")
+
+#6
+
+# a=int(input("teie pikkus on "))
+# if a<160:
+#     print("sina pikkus on väga väike")
+# elif 161<=a<185:
+#     print("sinu pikkus on normaalne")
+# else:
+#     print("sinu pikkus on väga suur")
+    
+#7
+# a=int(input("teie pikkus on "))
+# b=int(input("kas sina oled pois või tüdruk (pois=1, tüdruk=0)"))
+# if b==1:
+#     if a<160:
+#         print("sina pikkus on väga väike")
+#     elif 161<=a<185:
+#         print("sinu pikkus on normaalne")
+#     else:
+#         print("sinu pikkus on väga suur")
+# else:
+#     if a<150:
+#         print("sina pikkus on väga väike")
+#     elif 151<=a<175:
+#         print("sinu pikkus on normaalne")
+#     else:
+#         print("sinu pikkus on väga suur")
+ 
+# from datetime import *
+# from random import *
 #8.2
 
 #arve_nr= date.today()
@@ -163,6 +210,14 @@ from random import *
 #else:
 #    print("Maksa veel"+str(summa-raha))
 
+#9
+
+a=int(input("vedite 1 storonu kvadrata"))
+b=int(input("vedite 2 storonu kvadrata"))
+if a==b:
+    print("eto kvadrat")
+else:
+    print("eto ne kvadrat")
 
 #11
 
@@ -175,10 +230,10 @@ from random import *
 
 #14
 
-maht=int(input("Bussi maht: "))
-i=int(input("Inimeste arv: "))
-ba=round(i/maht)
-if i%maht!=0:
-    ba+=1
-vb=i%maht
-print("Kokku on vaja {0} bussi ja vimasel sõidavad {1} inimest".format(ba,vb))
+# maht=int(input("Bussi maht: "))
+# i=int(input("Inimeste arv: "))
+# ba=round(i/maht)
+# if i%maht!=0:
+#     ba+=1
+# vb=i%maht
+# print("Kokku on vaja {0} bussi ja vimasel sõidavad {1} inimest".format(ba,vb))

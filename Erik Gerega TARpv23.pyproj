@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0b43104-538b-442b-ae75-00eca6adc437</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>prakticheskie zadachi .py</StartupFile>
+    <StartupFile>class1.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
