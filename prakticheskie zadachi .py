@@ -30,32 +30,40 @@
 
 
 #2
-c=1
-b=1
-a=int(input())
-for i in range(1,a,1):
-    b+=1
-    c+=b
-print(c)
+#c=1
+#b=1
+#a=int(input())
+#for i in range(1,a,1):
+#    b+=1
+#    c+=b
+#print(c)
 
 
-c=1
-b=1
-a=int(input())
-while True:
-    b+=1
-    c+=b
-    if b==a:
-        break
-print(c)
+#c=1
+#b=1
+#a=int(input())
+#while True:
+#    b+=1
+#    c+=b
+#    if b==a:
+#        break
+#print(c)
 
-c=1 
-b=1
-a=int(input())
-while a>b:
-    b+=1
-    c+=b
-print(c)
+#c=1 
+#b=1
+#a=int(input())
+#while a>b:
+#    b+=1
+#    c+=b
+#print(c)
+
+#15
+
+for j in range(0,100,5):
+    for i in range(0,100,5):
+        print(f"{i*j:5}",end=" ")
+    print()
+
 
 
 
