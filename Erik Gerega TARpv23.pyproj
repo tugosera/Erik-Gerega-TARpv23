@@ -24,6 +24,7 @@
     <Compile Include="class1.py" />
     <Compile Include="index1.py" />
     <Compile Include="Erik_Gerega_TARpv23.py" />
+    <Compile Include="praktilinetöö_list22.py" />
     <Compile Include="prakticheskie zadachi .py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
