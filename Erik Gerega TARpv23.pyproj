@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0b43104-538b-442b-ae75-00eca6adc437</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>prakticheskie zadachi .py</StartupFile>
+    <StartupFile>dddd.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,10 @@
     <Compile Include="class1.py" />
     <Compile Include="index1.py" />
     <Compile Include="Erik_Gerega_TARpv23.py" />
+    <Compile Include="dddd.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modul.py" />
     <Compile Include="praktilinetöö_list22.py" />
     <Compile Include="prakticheskie zadachi .py" />
   </ItemGroup>
