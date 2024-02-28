@@ -44,3 +44,4 @@ while True:
         print("Viga")
 a=season(kuu)
 print(a)
+

@@ -32,7 +32,7 @@ def square(külg:float)->any:
     d=külg*sqrt(2)
     return S,P,d
 
-from math imprt *
+from math import *
 def season(a:int)->str:
     """
     """
@@ -52,4 +52,4 @@ def season(a:int)->str:
         s="kevad"
     else:
         s="talv"
-return s
+    return s
