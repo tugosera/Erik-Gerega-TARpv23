@@ -42,25 +42,33 @@ def andmete_eemaldamine_nimi_jargi(i:list,p:list)->any:
 
 def kellel_on_suurim_palk(i:list,p:list)->any:
     """
-
+    
     """
-    nimed=[]
     max_palk=max(p)
-    ind=1
-    for palk in p:
-        if palk==max_palk:
-            ind+=1
-            nimed=i[p.index(palk,ind)]
-            nimed.append(nimi)
-    return nimed
+    for x in range(1, len(p)):
+        if p[x]==max_palk:
+            Snimi=i[x]
+            Spalg=p[x]
+
+    print("Suurim palg on",Snimi," -",Spalg)
+    return Snimi,Spalg
 
 def kellel_on_väiksem_palk(i:list,p:list)->list:
     """
 
     """
-def sorteerimine():
-    """
+    min_palk=min(p)
+    for x in range(1, len(p)):
+        if p[x]==min_palk:
+            Lnimi=i[x]
+            Lpalg=p[x]
 
+    print("Väiksem palg on",Lnimi," -",Lpalg)
+    return Lnimi,Lpalg
+
+def sorteerimine(i:list,p:list)->any:
+    """
+    ne rabotaet
     """
     for n in range(0,len(i)):
         for m in range(n,len(i)):
@@ -68,3 +76,22 @@ def sorteerimine():
                 p[m],p[n]=p[n],p[m]
                 i[m],i[n]=i[n],i[m]
     return i,p
+def vordsed_palgad(i:list,p:list)->list:
+    """
+
+    """
+    nimed={}
+    for palk in p:
+        n=p.count(palk)
+        ind=p.index(palk)
+        if n>1:
+            subnimed=[]
+            for j in range(n):
+                nimi=i[p.index(palk,ind)]
+                subnimed.append(nimi)
+                p.pop(ind)
+                i.pop(ind)
+                ind=+1
+            nimed[palk]=subnimed
+    print(nimed)
+
