@@ -52,6 +52,7 @@ def kellel_on_suurim_palk(i:list,p:list)->any:
 
     print("Suurim palg on",Snimi," -",Spalg)
     return Snimi,Spalg
+    print()
 
 def kellel_on_väiksem_palk(i:list,p:list)->list:
     """
@@ -65,6 +66,7 @@ def kellel_on_väiksem_palk(i:list,p:list)->list:
 
     print("Väiksem palg on",Lnimi," -",Lpalg)
     return Lnimi,Lpalg
+    print()
 
 def sorteerimine(i:list,p:list)->any:
     """
@@ -75,7 +77,11 @@ def sorteerimine(i:list,p:list)->any:
             if p[n]>p[m]:
                 p[m],p[n]=p[n],p[m]
                 i[m],i[n]=i[n],i[m]
+    print(i)
+    print(p)
     return i,p
+    print()
+
 def vordsed_palgad(i:list,p:list)->list:
     """
 
@@ -94,4 +100,5 @@ def vordsed_palgad(i:list,p:list)->list:
                 ind=+1
             nimed[palk]=subnimed
     print(nimed)
+    print()
 
