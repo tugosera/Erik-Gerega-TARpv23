@@ -1,0 +1,7 @@
+﻿esmaspäev
+teisipäev
+koolmapäev
+neljapäev
+reede
+laupäev
+pühapäev
