@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b0b43104-538b-442b-ae75-00eca6adc437</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tööPalgad.py</StartupFile>
+    <StartupFile>töö_registreerimine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,6 +29,8 @@
     </Compile>
     <Compile Include="modul.py" />
     <Compile Include="dududu.py" />
+    <Compile Include="töö_registreerimine.py" />
+    <Compile Include="modul_registreerimine.py" />
     <Compile Include="tööPalgad.py" />
     <Compile Include="prakticheskie zadachi .py" />
   </ItemGroup>
